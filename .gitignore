@@ -1,0 +1,12 @@
+*.o
+stats.xml
+*.slo
+.sconsign.dblite
+*~
+\#*\#
+*.pyc
+debug.rib
+*.6
+_cgo*
+_go*
+_obj
