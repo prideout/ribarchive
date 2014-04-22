@@ -8,7 +8,9 @@ class Occlusion(float darkness = 1;
   {
     normal Nf = normalize(faceforward(N, I));
     normal Nn = normalize(Nf);
-    float occ = darkness * occlusion(P, Nn, samples, "maxdist", maxdist);
+    float occ = darkness * occlusion(P, Nn, samples,
+              "maxdist", maxdist,
+              "type", "diffuse");
     Ci = (1 - occ) * Cs * em * Os;
     Oi = Os;
   }

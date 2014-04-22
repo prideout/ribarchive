@@ -1,9 +1,9 @@
 ##RenderMan RIB
 version 3.04
-Format 960 400 1
-Display "archive.tif" "file" "rgb" 
+Format 1920 800 1
+Display "archive.png" "file" "rgb" 
 ShadingRate 1
-Option "limits" "int threads" [2]
+Option "limits" "int threads" [4]
 Option "statistics" "xmlfilename" ["stats.xml"] "endofframe" [1]
 PixelSamples 4 4
 Projection "perspective" "fov" [30]
